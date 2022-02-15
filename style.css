@@ -12,35 +12,39 @@ body{
 }
 /*o css da página inicial*/
 
-.amigos1{
-	display: inline-block;
-	position: relative;
-	width: 100%;
-	margin: 0 auto; 
-	padding: 0 auto;
-	border: 2px solid #DA70D6;
-
-}
 .Titulo-principal{
-	text-align: center;
+	text-align: left;
 	text-shadow: 2px 2px red;
 	font-size: 2em;
-	margin: 0 0 1em;
+	margin: 0em 1em 0em;
 	color: white;
 	clear: left;
 }
 
 
 .principal {
+	width: 100%;
+	color: white; 
+	display: inline-block;
+	background: #F08080;
+	padding: 15px 0px;
+	box-shadow: inset 0 0 40px #8B0000;
+	box-sizing: border-box;
+	border: 2px solid #8B0000;
+	border-radius: 10px 10px 10px 10px;
+}
+/* paragrafo 2 da pagina principal*/
+.principal2 {
 
 	color: white; 
 	display: inline-block;
-	padding: 3em 0;
 	background: #F08080;
 	padding: 30px 20px;
 	box-shadow: inset 0 0 40px #8B0000;
 	box-sizing: border-box;
 	border: 2px solid #8B0000;
+	border-radius: 10px 10px 10px 10px;
+	margin: 25px 0;
 }
 
 .beneficios{
